@@ -6,7 +6,7 @@ Welcome to my personal portfolio website! This is a responsive, multi-page websi
 
 ## 🌐 Live Demo
 
-[🔗 View Live Website]   (https://zesty-pegasus-483d20.netlify.app)
+[🔗 View Live Website]   (https://harshportfolio-14m605.netlify.app)
 
 > (Replace the link above with your actual GitHub Pages or Netlify deployment URL.)
 
