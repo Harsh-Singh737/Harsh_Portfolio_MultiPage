@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | Harsh's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="left">Harsh's Portfolio</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="about-section">
+      <div class="about-left">
+        <h2 class="section-title">Hi, I'm Harsh 👋</h2>
+        <p class="section-content">
+          I'm a backend engineer who loves building APIs, managing databases, and working with modern technologies like Node.js, Python, MongoDB, and SQL. Welcome to my portfolio!
+        </p>
+        <a href="projects.html" class="cta-button">View My Projects</a>
+      </div>
+      <div class="about-right">
+        <img src="er.png" alt="Backend Engineer" class="about-img">
+      </div>
+    </section>
+  </main>
+    <footer class="footer-container">
+  <div class="footer-columns">
+          <!-- Column 1: Brand -->
+          <div class="footer-column">
+            <img src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/dummyLogo/dummyLogoDark.svg" alt="Logo" class="footer-logo">
+            <p class="footer-description">
+              Passionate backend engineer building scalable systems and APIs with Node.js, Django, and cloud tech.
+            </p>
+          </div>
+
+          <!-- Column 2: Company Links -->
+          <div class="footer-column">
+            <h3 class="footer-title">Company</h3>
+            <ul class="footer-links">
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Newsletter -->
+          <div class="footer-column">
+            <h3 class="footer-title">Subscribe</h3>
+            <p class="footer-description">Get weekly updates, articles, and insights straight to your inbox.</p>
+            <div class="subscribe-form">
+              <input type="email" placeholder="Your email" class="subscribe-input">
+              <button class="subscribe-button">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <p class="footer-bottom">&copy; 2025 Harsh Singh. All Rights Reserved.</p>
+      </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
